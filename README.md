@@ -63,3 +63,4 @@ An online stationary story configured for mobile devices. This application uses 
 
 ## Resources
 * https://flutter.dev/docs
+* https://dart.dev/guides
