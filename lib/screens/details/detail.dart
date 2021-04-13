@@ -14,9 +14,9 @@ class Detail extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             ImageBanner("/images/pho.jpg"),
-            TextSection(Colors.red),
-            TextSection(Colors.green),
-            TextSection(Colors.blue),
+            TextSection("Title", "subtitle"),
+            TextSection("Ingredients", "what you will need"),
+            TextSection("Directions", "step 1:"),
           ]),
     );
   }
