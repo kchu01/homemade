@@ -1,4 +1,4 @@
-# yumify
+# homemade
 
 ## Description
 An online recipe book for mobile devices. Users can add recipes and favorite them. This application uses <i>Flutter</i>.
@@ -10,9 +10,8 @@ An online recipe book for mobile devices. Users can add recipes and favorite the
 
 ## Wireframes
 
-![main](/public/images/front.png)
-![main](/public/images/list.png)
-![main](/public/images/item_detail.png)
+![main](/public/images/homemade.png)
+
 
 ## MVP Goals
 
@@ -64,4 +63,5 @@ An online recipe book for mobile devices. Users can add recipes and favorite the
 * https://flutter.dev/docs
 * https://api.flutter.dev/flutter/material/MaterialApp-class.html
 * https://pub.dev/packages/google_fonts
+* https://www.tutorialkart.com/flutter/flutter-center-align-application-title/
 * https://dart.dev/guides
