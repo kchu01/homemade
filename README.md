@@ -1,13 +1,12 @@
-# Homemade
+# yumify
 
 ## Description
-An online stationary story configured for mobile devices. This application uses <i>Flutter</i>.
+An online recipe book for mobile devices. Users can add recipes and favorite them. This application uses <i>Flutter</i>.
 
 ## User Stories
 
-* User is able to view the homepage and browse items in the store.
-* User can click on item of their liking and view its description.
-* User can select quantity of desired item and add it to a shopping cart.
+* User is able to view the homepage and browse recipes.
+* User can click on a recipe view its description.
 
 ## Wireframes
 
@@ -17,12 +16,12 @@ An online stationary story configured for mobile devices. This application uses 
 
 ## MVP Goals
 
-* Render the front, list, and item page
+* Render the list and recipe page
 
 ## Stretch Goals
 
 * Stylize the application
-* Render the shopping cart page 
+* Allow users to add recipes  
 
 ## Daily Sprints
 
@@ -35,12 +34,12 @@ An online stationary story configured for mobile devices. This application uses 
     * Create a readme 
     * Daily sprints 
 * Create the front page
-    * Include a homepage image
-    * Brief 'about me' about the application
+    * Create a product page
+    * Make an AppBar display on homepage
 
 ### Tuesday
 * Create the item list page
-    * Have at least 4 items to display (2 x 2 grid)
+    * Have at least 4 recipes to display (2 x 2 grid)
     * Make sure the images are clickable and able to send user to the respective details page
 
 ### Wednesday

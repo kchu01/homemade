@@ -5,6 +5,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: 'yumify',
       debugShowCheckedModeBanner: false,
       home: Detail(),
     );
