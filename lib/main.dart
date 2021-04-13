@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-// import 'package:myapp/constants.dart';
+import 'package:myapp/constants.dart';
+import 'package:myapp/screens/home/home_screen.dart';
 
 void main() => runApp(const MyApp());
 
@@ -10,9 +11,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
-          // primarySwatch: Colors.blue.shade200,
-          ),
-      home: const MyHomePage(),
+        textTheme: Theme.of(context).textTheme.apply(bodyColor: kTextColor),
+        visualDensity: VisualDensity.adaptivePlatformDensity,
+        primarySwatch: Colors.purple,
+      ),
+      home: MyHomePage(),
       debugShowCheckedModeBanner: false,
     );
   }
