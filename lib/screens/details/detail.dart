@@ -7,13 +7,13 @@ class Detail extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Detail'),
+        title: Text('Recipes'),
       ),
       body: Column(
           mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            ImageBanner("/images/homepage.jpg"),
+            ImageBanner("/images/pho.jpg"),
             TextSection(Colors.red),
             TextSection(Colors.green),
             TextSection(Colors.blue),
