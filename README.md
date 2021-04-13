@@ -10,7 +10,7 @@ An online recipe book for mobile devices. Users can add recipes and favorite the
 
 ## Wireframes
 
-![main](/public/images/homemade.png)
+![main](/public/images/homemade.PNG)
 
 
 ## MVP Goals
