@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'screens/details/detail.dart';
+import 'screens/recipes/recipes.dart';
 import 'style.dart';
 
 class MyApp extends StatelessWidget {
@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         title: 'homemade',
         debugShowCheckedModeBanner: false,
-        home: Detail(),
+        home: Recipes(),
         theme: ThemeData(
           appBarTheme: AppBarTheme(
             textTheme: TextTheme(headline6: AppBarTextStyle),
