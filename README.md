@@ -37,27 +37,42 @@ An online recipe book for mobile devices. Users can add recipes and favorite the
     * Make an AppBar display on homepage
 
 ### Tuesday
-* Create the item list page
-    * Have at least 4 recipes to display (2 x 2 grid)
-    * Make sure the images are clickable and able to send user to the respective details page
+* Research
+    * Compile a folder with food images
+    * Learn how to add images in Flutter
+* Fonts
+    * Download google font: Crimson
+    * Try to load the font on the page
+* Create one page of the application
+    * Render an image
+    * Create respective containers for app: image, title, ingredient, direction
 
 ### Wednesday
-* Create the details page for all the items
-    * Quantity button 
-    * Add button to send the item to a shopping cart
+* Research
+    * Learn how to map a list of items/information
+    * Learn how to make routes to separate pages
+* Plan
+    * Create recipe/recipe_detail.dart and make a list of Recipe
+    * Attach respective data to list: image, title, detail
+    * Try not to hard code information - map/loop over the information instead for cleaner code
 
 ### Thursday
-* MVP
-* Debuggging
-* Styling
+* Research
+    * Learn to navigate through the application
+* Plan
+    * Create at least 4 recipes and have their title name display 
 
 ### Friday
-* Debuggging
-* Styling
+* MVP aimed for today
+* Plan
+    * Render the app on the Android Emulator (make sure it works)
+    * Finish styling the application
+    * Work on anything that is on the backburner (check notes file for list)
 
 ### Saturday and Sunday
 * Debuggging
 * Styling
+* Update ReadMe with finalized images from app
 
 ## Resources
 All images were provided by [Unsplash](http://unsplash.com/).
