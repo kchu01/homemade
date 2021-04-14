@@ -7,7 +7,7 @@ class Detail extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final recipes = Recipe.fetchAll();
-    final recipe = recipes.first;
+    final recipe = recipes.first; // first is similar to recipe[0]
 
     return Scaffold(
       appBar: AppBar(
@@ -18,10 +18,13 @@ class Detail extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             ImageBanner(recipe.imagePath),
-            TextSection("Recipe name", "subtitle"),
-            TextSection("Ingredients", "what you will need"),
-            TextSection("Directions", "step 1: boil a large pot of water"),
-          ]),
+          ]..addAll(textSections(recipe))),
     );
+  }
+
+  List<Widget> textSections(Recipe recipe) {
+    return recipe.details
+        .map((detail) => TextSection(detail.title, detail.text))
+        .toList();
   }
 }

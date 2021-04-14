@@ -82,4 +82,5 @@ All images were provided by [Unsplash](http://unsplash.com/).
 * Docs | https://flutter.dev/docs
 * Fonts | https://pub.dev/packages/google_fonts
 * Layout | https://flutter.dev/docs/development/ui/layout/tutorial
+* Map | https://api.flutter.dev/flutter/dart-core/Map-class.html
 * Material Class | https://api.flutter.dev/flutter/material/MaterialApp-class.html
