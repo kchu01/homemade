@@ -60,8 +60,11 @@ An online recipe book for mobile devices. Users can add recipes and favorite the
 * Styling
 
 ## Resources
-* https://flutter.dev/docs
-* https://api.flutter.dev/flutter/material/MaterialApp-class.html
-* https://pub.dev/packages/google_fonts
-* https://www.tutorialkart.com/flutter/flutter-center-align-application-title/
-* https://dart.dev/guides
+All images were provided by [Unsplash](http://unsplash.com/).
+
+* Align | https://www.tutorialkart.com/flutter/flutter-center-align-application-title/
+* Dart | https://dart.dev/guides
+* Docs | https://flutter.dev/docs
+* Fonts | https://pub.dev/packages/google_fonts
+* Layout | https://flutter.dev/docs/development/ui/layout/tutorial
+* Material Class | https://api.flutter.dev/flutter/material/MaterialApp-class.html
