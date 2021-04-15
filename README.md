@@ -10,6 +10,7 @@ An online recipe book for mobile devices. Users can add recipes and favorite the
 
 ## Wireframes
 
+![main](/public/images/homepage.PNG)
 ![main](/public/images/homemade.PNG)
 
 

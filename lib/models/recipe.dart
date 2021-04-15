@@ -1,6 +1,5 @@
 import './recipe_detail.dart';
 
-/// Represents a tourism location a user can visit.
 class Recipe {
   final int id;
   final String name;
@@ -26,8 +25,8 @@ class Recipe {
       ]),
       Recipe(4, 'Banh Xeo', 'images/banhxeo.jpg', [
         RecipeDetail('Details', 'Flaky goodness.'),
-        RecipeDetail(
-            'Directions', 'Step 1: customize it with protien of your choice.'),
+        RecipeDetail('Directions',
+            'Step 1: realize you ate 3 already and contemplate eating another.'),
       ]),
     ];
   }
