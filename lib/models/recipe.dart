@@ -31,4 +31,14 @@ class Recipe {
       ]),
     ];
   }
+
+  static Recipe fetchByID(int recipeID) {
+    List<Recipe> recipes = Recipe.fetchAll();
+    for (var i = 0; i < recipes.length; i++) {
+      if (recipes[i].id == recipeID) {
+        return recipes[i];
+      }
+    }
+    return null;
+  }
 }

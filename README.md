@@ -50,20 +50,22 @@ An online recipe book for mobile devices. Users can add recipes and favorite the
 ### Wednesday
 * Research
     * Learn how to map a list of items/information
-    * Learn how to make routes to separate pages
+    * Learn how to make routes/navigate to separate pages
 * Plan
     * Create recipe/recipe_detail.dart and make a list of Recipe
     * Attach respective data to list: image, title, detail
-    * Try not to hard code information - map/loop over the information instead for cleaner code
+    * Iterate through recipe detail 
+    * Use RouteFactory to navigate through routes
+* MVP - evening
 
 ### Thursday
 * Research
-    * Learn to navigate through the application
+    * Learn how to upload Google Fonts 
 * Plan
-    * Create at least 4 recipes and have their title name display 
+    * Style - make homepage more visually appealing
+    * Clean up code 
 
 ### Friday
-* MVP aimed for today
 * Plan
     * Render the app on the Android Emulator (make sure it works)
     * Finish styling the application
@@ -81,7 +83,13 @@ All images were provided by [Unsplash](http://unsplash.com/).
 * Dart | https://dart.dev/guides
 * Docs | https://flutter.dev/docs
 * Fonts | https://pub.dev/packages/google_fonts
+* Gesture Dectector | https://api.flutter.dev/flutter/widgets/GestureDetector-class.html
 * Layout | https://flutter.dev/docs/development/ui/layout/tutorial
 * Map | https://api.flutter.dev/flutter/dart-core/Map-class.html
 * Material Class | https://api.flutter.dev/flutter/material/MaterialApp-class.html
 * Navigation | https://flutter.dev/docs/cookbook/navigation
+* Navigator Class | https://api.flutter.dev/flutter/widgets/Navigator-class.html
+* RouteFactory | https://api.flutter.dev/flutter/widgets/RouteFactory.html
+* Scaffold Class | https://api.flutter.dev/flutter/material/Scaffold-class.html
+* Stateful Widgets | https://api.flutter.dev/flutter/widgets/StatefulWidget-class.html
+* Static | https://fluttertutorial.in/static-in-dart/
