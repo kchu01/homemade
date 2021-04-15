@@ -4,10 +4,14 @@ import 'text_section.dart';
 import '../../models/recipe.dart';
 
 class Detail extends StatelessWidget {
+  final int _recipeID;
+
+  Detail(this._recipeID);
+
   @override
   Widget build(BuildContext context) {
-    final recipes = Recipe.fetchAll();
-    final recipe = recipes.first; // first is similar to recipe[0]
+    final recipe = Recipe.fetchByID(_recipeID);
+    // final recipe = recipes.first; // first is similar to recipe[0]
 
     return Scaffold(
       appBar: AppBar(

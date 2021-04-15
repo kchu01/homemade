@@ -13,8 +13,18 @@ class Recipes extends StatelessWidget {
         title: Text('Recipes'),
       ),
       body: ListView(
-        children: recipes.map((recipe) => Text(recipe.name)).toList(),
+        children: recipes
+            .map((recipe) => GestureDetector(
+                  child: Text(recipe.name),
+                  onTap: () => _onRecipeTap(context, recipe.id),
+                ))
+            .toList(),
       ),
     );
+  }
+
+  void _onRecipeTap(BuildContext context, int recipeID) {
+    Navigator.pushNamed(context, RecipeDetailRoute,
+        arguments: {'id': recipeID});
   }
 }
