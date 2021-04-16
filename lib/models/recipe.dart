@@ -11,8 +11,10 @@ class Recipe {
   static List<Recipe> fetchAll() {
     return [
       Recipe(1, 'Pho', 'images/pho.jpg', [
-        RecipeDetail('Details', 'Warm relaxing bowl of pho.'),
-        RecipeDetail('Directions', 'Step 1: boil a large pot of water'),
+        RecipeDetail('Details',
+            'A Vietnamese soup consisting of broth, rice noodles, herbs, and meat. Pho is considered the national dish of Vietnam.'),
+        RecipeDetail('Directions',
+            'Step 1: boil a large pot of water.\nStep 2: Add spices to the pot.'),
       ]),
       Recipe(2, 'Asada Tacos', 'images/taco.jpg', [
         RecipeDetail('Details', 'Delicious asada tacos on corn tortillas.'),
