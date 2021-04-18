@@ -6,6 +6,7 @@ import 'style.dart';
 
 const RecipesRoute = '/';
 const RecipeDetailRoute = '/recipe_detail';
+const PrimaryColor = const Color(0xFF263238);
 
 class MyApp extends StatelessWidget {
   @override
@@ -40,6 +41,7 @@ class MyApp extends StatelessWidget {
 
   ThemeData _theme() {
     return ThemeData(
+      primaryColor: PrimaryColor,
       appBarTheme: AppBarTheme(
         textTheme: TextTheme(headline6: AppBarTextStyle),
       ),
