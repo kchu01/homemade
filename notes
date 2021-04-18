@@ -1,9 +1,10 @@
 Backburner:
 
 # font - it's not rendering, maybe the path is incorrect
+# listview widget - mess around with this to edit the homepage view
 
 Notes:
 
-# RouteFactory is like if, else
+# RouteFactory is to "if, else"
 # The screens are stacks. Homepage (recipe) is top layer 
 # and recipe detail is a stack that goes on top but homepage is saved

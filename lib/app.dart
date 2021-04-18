@@ -46,9 +46,11 @@ class MyApp extends StatelessWidget {
         textTheme: TextTheme(headline6: AppBarTextStyle),
       ),
       textTheme: TextTheme(
-        headline1: TitleTextStyle,
+        headline5: TitleTextStyle,
         bodyText1: BodyTextStyle,
       ),
     );
   }
 }
+
+// title and body text not reacting to the font changes - messed around with texttheme class

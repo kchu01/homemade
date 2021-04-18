@@ -81,6 +81,7 @@ An online recipe book for mobile devices. Users can add recipes and favorite the
 All images were provided by [Unsplash](http://unsplash.com/).
 
 * Align | https://www.tutorialkart.com/flutter/flutter-center-align-application-title/
+* Colors | https://api.flutter.dev/flutter/material/Colors-class.html
 * Dart | https://dart.dev/guides
 * Docs | https://flutter.dev/docs
 * Fonts | https://pub.dev/packages/google_fonts
@@ -94,3 +95,4 @@ All images were provided by [Unsplash](http://unsplash.com/).
 * Scaffold Class | https://api.flutter.dev/flutter/material/Scaffold-class.html
 * Stateful Widgets | https://api.flutter.dev/flutter/widgets/StatefulWidget-class.html
 * Static | https://fluttertutorial.in/static-in-dart/
+* TextTheme Class | https://api.flutter.dev/flutter/material/TextTheme-class.html
